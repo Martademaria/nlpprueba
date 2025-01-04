@@ -9,21 +9,6 @@ def show_restaurant_info():
     st.image("aa.png", use_container_width=True)
     st.image("loc.png", use_container_width=True)
 
-    # Descripción del restaurante
-    st.header("Sobre Nosotros")
-    st.markdown("""
-    Nuestro restaurante se especializa en cocina de autor, fusionando los sabores tradicionales con técnicas modernas.  
-    Ofrecemos una experiencia gastronómica única, con un ambiente acogedor y un servicio excepcional.
-    """)
-    
-    # Mostrar más detalles sobre el restaurante
-    st.header("Información del Restaurante")
-    st.markdown("""
-    - **Ubicación**: Calle Ficticia 123, Ciudad XYZ  
-    - **Horario**: Lunes a Domingo de 12:00 PM a 10:00 PM  
-    - **Contacto**: (123) 456-7890  
-    - **Especialidades**: Paella, Tacos de Mariscos, Postres Caseros
-    """)
 
 # Función para mostrar el chatbot
 def show_chatbot():
