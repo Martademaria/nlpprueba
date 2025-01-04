@@ -1,8 +1,6 @@
 import streamlit as st
-import openai  # o cualquier otra API generativa para el chatbot
 
-# Configura la API de OpenAI
-openai.api_key = "YOUR_API_KEY"  # Asegúrate de que tu API key esté configurada correctamente
+
 
 # Aplicar fondo beige a toda la página mediante CSS
 st.markdown("""
