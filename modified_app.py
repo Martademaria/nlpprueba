@@ -11,17 +11,14 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 
-# Función para mostrar la información del restaurante
 def show_restaurant_info():
-    
-    
     # Mostrar imágenes del restaurante (asegúrate de que las imágenes estén en el directorio adecuado)
-    st.image("labellavita2.png", use_column_width=True)
+    st.image("labellavita2.png", use_container_width=True)
     
-    # Mostrar la segunda imagen debajo de la primera
-    st.image("aboutus3.png", use_column_width=True)
-    st.image("aa.png", use_column_width=True)
-    st.image("loc.png", use_column_width=True)
+    # Mostrar las siguientes imágenes
+    st.image("aboutus3.png", use_container_width=True)
+    st.image("aa.png", use_container_width=True)
+    st.image("loc.png", use_container_width=True)
 
     # Descripción del restaurante
     st.header("Sobre Nosotros")
