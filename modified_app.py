@@ -1,16 +1,5 @@
 import streamlit as st
 
-
-# Aplicar fondo beige a toda la página mediante CSS
-st.markdown("""
-    <style>
-        body {
-            background-color: #F5F5DC;  # Código hexadecimal para un tono beige
-        }
-    </style>
-    """, unsafe_allow_html=True)
-
-
 def show_restaurant_info():
     # Mostrar imágenes del restaurante (asegúrate de que las imágenes estén en el directorio adecuado)
     st.image("labellavita2.png", use_container_width=True)
