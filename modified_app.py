@@ -2,14 +2,10 @@ import streamlit as st
 
 
 
-# Aplicar fondo beige a toda la página mediante CSS
-st.markdown("""
-    <style>
-        body {
-            background-color: #F5F5DC;  # Código hexadecimal para un tono beige
-        }
-    </style>
-    """, unsafe_allow_html=True)
+[theme]
+base="light"
+backgroundColor="#000000"
+
 
 # Función para mostrar la información del restaurante
 def show_restaurant_info():
